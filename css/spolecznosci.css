@@ -1,0 +1,61 @@
+.syellow, .syellow > a, .syellow > a > span, #wpadminbar .syellow {
+	color:#f8d129 !important;
+}
+#video_overlay {
+	background:#000;
+	position:fixed;
+	height:100%;
+	width:100%;
+	left:0;
+	top:0;
+	opacity:0;
+	z-index:999;
+}
+#video_player {
+	border:4px solid #000;
+	background:#000;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-top:-240px;
+	margin-left:-320px;
+	z-index:1000;
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 10px 20px rgba(0,0,0,.5);
+	box-shadow: 0 10px 20px rgba(0,0,0,.5);
+}
+#video_player > .title {
+	color:#eee;
+	font-weight:bold;
+	font-size:18px;
+	padding:3px 5px 6px;
+}
+#ico_close {
+	cursor:pointer;
+	position:absolute;
+	right:-15px;
+	top:-1px;
+	width:72px;
+	height:25px;
+	background:url('../img/close.png');
+}
+
+#spolecznosci_videotip {
+	display:none;
+	position:absolute;
+	background:url('../img/note.png') 0 -155px;
+	width:279px;
+	height:155px;
+	top:0;
+}
+#spolecznosci_videotip_close {
+	cursor:pointer;
+	width:82px;
+	height:30px;
+	position: absolute;
+	left:110px;
+	top:104px;
+}
+#spolecznosci_videotip_close:hover {
+	background:url('../img/note.png') -111px -414px no-repeat;
+}

@@ -1,0 +1,110 @@
+html {
+	background: #373737 !important;
+	background:  #373737 url('/wp-content/plugins/spolecznosci/img/bg.png') top center scroll repeat  !important;
+}
+body,body.login {
+	font-family: "Trebuchet MS";
+	color:#7a7a7a;
+	font-size:13px;
+	background: #373737;
+	background:  #373737 url('/wp-content/plugins/spolecznosci/img/bg.png') top center scroll repeat;
+	padding-top: 0;
+}
+a {
+	outline: 0 none;
+}
+#index-head {
+	overflow:hidden;
+	height:154px;
+	width:100%;
+	position: relative;
+	z-index:2;
+}
+#index-head > #logo {
+	display:block;
+	background: url('/wp-content/plugins/spolecznosci/img/logo-2.png') 0 0 scroll no-repeat;
+	width:406px;
+	height:93px;
+	margin:60px auto 0;
+}
+.login #nav a, .login #backtoblog a {
+	color:#7a7a7a !important;
+	text-shadow: none;
+	text-decoration:none;
+}
+.login #nav a:hover, .login #backtoblog a:hover {
+	color:#8a8a8a !important;
+	text-shadow: none;
+	text-decoration:underline;
+}
+#login { width:312px }
+.login form, form {	
+	color:#757575;
+	position: relative;
+	background: #eaeaea;
+	border: 0 none;
+	-moz-shadow:0 0 3px rgba(0,0,0,.33);
+	-webkit-shadow:0 0 3px rgba(0,0,0,.33);
+	box-shadow:0 0 3px rgba(0,0,0,.33);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	/*height: 500px;*/
+	padding: 20px;
+	overflow: hidden;
+}
+input.button-primary, button.button-primary, a.button-primary, .login .button-primary {
+	float:none;
+	background: url('/wp-content/plugins/spolecznosci/img/button.png') 0 0 transparent no-repeat;
+	border:0 none;
+	padding:0;
+	text-align: center;
+	display:block;
+	width:168px;
+	line-height:47px;
+	height:47px;
+	font-size:18px;
+	font-weight:bold;
+	color:#323232;
+	cursor:pointer;
+	text-shadow:none;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	margin-top:10px;
+}
+input.button-primary:hover, button.button-primary:hover, a.button-primary:hover, input.button-primary:active, button.button-primary:active, a.button-primary:active, .login .button-primary:hover, .login .button-primary:active {
+	background: url('/wp-content/plugins/spolecznosci/img/button.png') -168px 0 transparent no-repeat;
+	color:#323232;
+}
+.login form .input, body form .input {
+	border: 0 none;
+	-mox-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	font-weight:normal;
+	color:#000000;
+	margin-left:0;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	outline: medium none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border:1px solid #c7c7c7;
+	padding: 3px 12px;
+	width:92%;
+	height:35px;
+}
+.login label,.login form .forgetmenot label,form .forgetmenot label {
+	font-size: 13px;
+}
+form .submit, .alignright {
+	overflow: hidden;
+	float: none;
+	clear:left;
+	margin-left:-3px;
+}
